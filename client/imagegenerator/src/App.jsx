@@ -11,7 +11,7 @@ function App() {
   const [spinner, setSpinner ] = useState(false)
   const [defaultMessage, setDefaultMessage] = useState(true)
 
-  axios.defaults.baseURL = "http://127.0.0.1:5000";
+  axios.defaults.baseURL = "https://imagegeneratorv3.onrender.com";
 
    //* handle post request
   const postData = async()=>{
