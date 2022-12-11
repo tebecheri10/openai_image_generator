@@ -1,0 +1,17 @@
+.mainTitle, .defaultMessage {
+    font-family: 'Pacifico', cursive;
+}
+
+@media (max-width: 1024px){
+    .playgroundContainer{
+        flex-direction: column!important;
+    }
+    .controlContainer{
+        width: 100%!important;
+        height: 280px!important;
+    }
+    .resultContainer{
+        width: 100%!important;
+        margin-top: 20px;
+    }
+}
