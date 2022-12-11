@@ -3,6 +3,11 @@
 
 Insert a description and the AI will generate the image
 
+#Tecnologies:
+-React
+-Tailwind.css
+-Express
+
 ## Web: https://imagegeneratorai.netlify.app/
 
 # Captura:
