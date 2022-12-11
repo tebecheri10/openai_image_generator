@@ -42,7 +42,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full h-24 bg-slate-600  text-white flex items-center justify-center	">
+      <div className="w-full h-24 bg-slate-600  text-white flex items-center justify-center shadow-[1px_-3px_15px_2px_#000000]">
         <h1 className='mainTitle text-5xl font-bold text-center'>Image generator</h1>
       </div>
       <div className='playgroundContainer w-full flex flex-row'>
@@ -52,7 +52,7 @@ function App() {
             >
                 <h2 className='text-3xl m-2 text-white text-left'>Insert your prompt</h2>
                 <input
-                    className='w-full rounded-md h-8'
+                    className='w-full rounded-md h-8 '
                     type="text"
                     onChange={(e) => setPrompt(e.target.value)}
                 />
@@ -62,10 +62,14 @@ function App() {
                       <option value="medium">medium</option>
                       <option value="large">large</option>
                   </select>
-                <button className='bg-red-500 w-full mt-4 justify-center h-8 rounded-md text-1xl text-white text-lef hover:brightness-105' type='submit'>
+                <button className='bg-red-500 w-full mt-5 justify-center h-8 rounded-md text-1xl font-bold text-white text-lef hover:brightness-105' type='submit'>
                     Generate
                 </button>
             </form>
+            <section className='text-1xl m-2 mt-4 text-white'>
+            <span className='underline'>Prompt:</span>  Describe the image with the desired details and the AI ​​will create it.<br/>
+              Example: "blue dog with great eyes"<br/>
+            </section>
         </div>
         <Result
         imageUrl={imageUrl}
