@@ -3,7 +3,7 @@
 
 Insert a description and the AI will generate the image
 
-#Tecnologies:
+## Tecnologies:
 -React
 -Tailwind.css
 -Express
